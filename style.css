@@ -39,24 +39,26 @@ header a {
 }
 
 .background {
-  height: 100vh;
-  background-size: cover;
-  background-image: url(images/background1.jpeg);
-  background-blend-mode: darken;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.background img {
+  width: 100%;
 }
 .background .message {
-  text-align: center;
-  color: white;
-  width: 100%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(168, 12, 2, 0.7);
+  padding: 20px;
+  border-radius: 10px;
 }
-.background .decouvrir {
+.background .message a {
   text-decoration: none;
-  color: white;
-  text-align: center;
-  width: 100%;
 }
-
-button {
+.background .message a button {
   padding: 9px 25px;
   background-color: #a80c02;
   border: none;
@@ -70,6 +72,68 @@ button:hover {
 
 body {
   font-family: sans-serif;
+}
+
+.presentation {
+  text-align: center;
+  width: 30%;
+  margin: auto;
+  margin-top: 50px;
+  color: #450007;
+  background-color: rgba(168, 12, 2, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.cartes {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.card1 {
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 210px 210px;
+  grid-template-areas: "image1" "text1";
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  text-align: center;
+}
+.card1 .image-card1 {
+  grid-area: image1;
+  background: url(images/commerce-image.png);
+  background-size: cover;
+}
+.card1 .text-card1 {
+  grid-area: text1;
+}
+
+.card2 {
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 210px 210px;
+  grid-template-areas: "image2" "text2";
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  text-align: center;
+}
+.card2 .image-card2 {
+  grid-area: image2;
+  background: url(images/commerce-image.png);
+  background-size: cover;
+}
+.card2 .text-card2 {
+  grid-area: text2;
+}
+
+.competences {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */
