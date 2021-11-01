@@ -15,16 +15,36 @@ header {
     align-items: center;
     padding: 10px 10%;
     font-family: sans-serif;
+    background-color: black;
     p {
-        color: black;
+        color: #a80c02;
         font-weight: bolder;
-        font-size: 30px;
+        font-size: 25px;
+        padding: 5px 0px;
     }
 
-    nav {
-        color: black;
+    a {
+        text-decoration: none;
+        color: white;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 16px;   
+        font-weight: bold;    
     }
-   
+}
+
+.navbar {
+    list-style: none;
+    
+    li {
+        display: inline-block;
+        padding: 0px 25px;
+
+        a:hover {
+            color: #a80c02;
+        }
+    }
+}
+
+.background {
+    width: 100%;
 }
