@@ -160,7 +160,27 @@ body {
 }
 
 #projets {
-    background-image: url(images/background2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/background2.jpg);
     background-size: cover;
 }
 
+.intro-projets {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    margin-top: 100px;
+    color: white;
+    background-color: rgb(168, 12, 2, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: $textcolor;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+}
