@@ -39,7 +39,37 @@ header a {
 }
 
 .background {
+  height: 100vh;
+  background-size: cover;
+  background-image: url(images/background1.jpeg);
+  background-blend-mode: darken;
+}
+.background .message {
+  text-align: center;
+  color: white;
   width: 100%;
+}
+.background .decouvrir {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: #a80c02;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
