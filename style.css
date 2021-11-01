@@ -86,12 +86,9 @@ body {
 }
 
 .cartes {
-  width: 100vw;
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
 }
 
 .card1 {
@@ -102,6 +99,7 @@ body {
   border-radius: 10px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
   text-align: center;
+  background-color: white;
 }
 .card1 .image-card1 {
   grid-area: image1;
@@ -120,10 +118,11 @@ body {
   border-radius: 10px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
   text-align: center;
+  background-color: white;
 }
 .card2 .image-card2 {
   grid-area: image2;
-  background: url(images/commerce-image.png);
+  background: url(images/background-code.jpg);
   background-size: cover;
 }
 .card2 .text-card2 {
@@ -134,6 +133,7 @@ body {
   text-align: center;
   margin-top: 100px;
   margin-bottom: 100px;
+  text-decoration: underline;
 }
 
 #projets {
@@ -160,6 +160,43 @@ button {
   font-weight: bold;
   margin-top: 20px;
   color: white;
+}
+
+.projet-texte {
+  text-align: center;
+  margin: 100px;
+}
+.projet-texte p {
+  width: 40%;
+  margin: auto;
+}
+
+#about {
+  background: url(images/background3.jpg);
+  background-size: cover;
+}
+
+.projetslist {
+  text-align: center;
+  margin-top: 100px;
+}
+.projetslist a {
+  text-decoration: none;
+  color: #450007;
+}
+
+.texte-projet2 {
+  text-align: center;
+  margin: 100px;
+  margin-top: 300px;
+}
+.texte-projet2 p {
+  width: 40%;
+  margin: auto;
+  margin-top: 20px;
+}
+.texte-projet2 img {
+  width: 30%;
 }
 
 /*# sourceMappingURL=style.css.map */
