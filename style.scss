@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+$color1 : black;
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    font-family: sans-serif;
+    p {
+        color: black;
+        font-weight: bolder;
+        font-size: 30px;
+    }
+
+    nav {
+        color: black;
+        font-weight: 500;
+        font-size: 16px;
+    }
+   
+}
