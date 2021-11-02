@@ -1,8 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+#page1 {
+  overflow: hidden;
 }
 
 header {
@@ -87,8 +90,10 @@ body {
 
 .cartes {
   display: flex;
+  column-gap: 50px;
   align-items: center;
   justify-content: center;
+  margin-bottom: 200px;
 }
 
 .card1 {
@@ -105,6 +110,7 @@ body {
   grid-area: image1;
   background: url(images/commerce-image.png);
   background-size: cover;
+  border-radius: 10px;
 }
 .card1 .text-card1 {
   grid-area: text1;
@@ -124,6 +130,7 @@ body {
   grid-area: image2;
   background: url(images/background-code.jpg);
   background-size: cover;
+  border-radius: 10px;
 }
 .card2 .text-card2 {
   grid-area: text2;
@@ -164,11 +171,12 @@ button {
 
 .projet-texte {
   text-align: center;
-  margin: 100px;
+  margin: 200px;
 }
 .projet-texte p {
   width: 40%;
-  margin: auto;
+  text-align: left;
+  margin: 15px;
 }
 
 #about {
@@ -188,15 +196,20 @@ button {
 .texte-projet2 {
   text-align: center;
   margin: 100px;
-  margin-top: 300px;
 }
 .texte-projet2 p {
   width: 40%;
-  margin: auto;
+  margin: 10px auto;
   margin-top: 20px;
 }
 .texte-projet2 img {
   width: 30%;
+}
+
+.middle {
+  margin: auto;
+  width: 100%;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

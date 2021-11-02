@@ -8,6 +8,9 @@ $textcolor: #450007;
     padding: 0;
 }
 
+#page1 {
+    overflow: hidden;
+}
 
 header {
     display: flex;
@@ -103,8 +106,10 @@ body {
 
 .cartes {
     display: flex;
+    column-gap: 50px;
     align-items: center;
     justify-content: center;
+    margin-bottom: 200px;
 }
 
 .card1 {
@@ -121,6 +126,7 @@ body {
         grid-area: image1;
         background: url(images/commerce-image.png);
         background-size: cover;
+        border-radius: 10px;
     }
 
     .text-card1 {
@@ -143,6 +149,7 @@ body {
         grid-area: image2;
         background: url(images/background-code.jpg);
         background-size: cover;
+        border-radius: 10px;
     }
 
     .text-card2 {
@@ -186,11 +193,13 @@ button {
 
 .projet-texte {     
     text-align: center;
-    margin: 100px;
+    margin: 200px;
+    
 
     p {
         width: 40%;
-        margin: auto;
+        text-align: left;
+        margin: 15px;
     }
 }
 
@@ -212,16 +221,21 @@ button {
 .texte-projet2 {
     text-align: center;
     margin: 100px;
-    margin-top: 300px;
 
     p {
         width: 40%;
-        margin: auto;
+        margin: 10px auto;
         margin-top: 20px;
     }
 
     img {
         width: 30%;
     }
+
 }
 
+.middle {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
