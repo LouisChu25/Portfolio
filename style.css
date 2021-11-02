@@ -206,10 +206,13 @@ button {
   width: 30%;
 }
 
-.middle {
-  margin: auto;
-  width: 100%;
+.projet-tut {
   text-align: center;
+}
+.projet-tut p {
+  width: 40%;
+  text-align: left;
+  margin: 15px auto;
 }
 
 /*# sourceMappingURL=style.css.map */
